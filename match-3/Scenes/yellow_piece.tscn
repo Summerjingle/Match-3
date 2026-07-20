@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b7bngas84h8bp"]
+
+[ext_resource type="PackedScene" uid="uid://bvyxr02h8xitj" path="res://Scenes/Piece.tscn" id="1_bqkra"]
+[ext_resource type="Texture2D" uid="uid://bstb1xkq4t4e5" path="res://Art/Pieces/Yellow Piece.png" id="2_vdxus"]
+
+[node name="Yellow_Piece" unique_id=365095995 instance=ExtResource("1_bqkra")]
+color = "yellow"
+
+[node name="Sprite2D" parent="." index="0" unique_id=578804628]
+texture = ExtResource("2_vdxus")

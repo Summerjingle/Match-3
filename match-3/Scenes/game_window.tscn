@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://c3tbx7cx0yevc"]
+
+[ext_resource type="Texture2D" uid="uid://b2852nfchlu7f" path="res://Art/background 2.png" id="1_rs5m8"]
+[ext_resource type="Texture2D" uid="uid://vm52y20srm0o" path="res://Art/Top UI v 2.png" id="2_x48fj"]
+[ext_resource type="Texture2D" uid="uid://dduhx16gfq6jn" path="res://Art/Bottom UI v 2.png" id="3_lfdqk"]
+[ext_resource type="Script" uid="uid://bwu3f4gcb5qs4" path="res://Scenes/grid.gd" id="4_x48fj"]
+
+[node name="GameWindow" type="Node2D" unique_id=1131879010]
+
+[node name="BackGround" type="TextureRect" parent="." unique_id=2003937157]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_rs5m8")
+
+[node name="TopUI" type="TextureRect" parent="." unique_id=718924826]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_x48fj")
+
+[node name="ButtonUI" type="TextureRect" parent="." unique_id=1011519163]
+offset_top = 928.0
+offset_right = 576.0
+offset_bottom = 1020.0
+texture = ExtResource("3_lfdqk")
+
+[node name="grid" type="Node2D" parent="." unique_id=93042616]
+script = ExtResource("4_x48fj")
+width = 8
+hight = 10
+x_start = 64
+y_start = 800
+offset = 64

@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bvyxr02h8xitj"]
+
+[ext_resource type="Script" uid="uid://bsxhhi7b68uuu" path="res://Scripts/piece.gd" id="1_46tpi"]
+
+[node name="Piece" type="Node2D" unique_id=365095995]
+script = ExtResource("1_46tpi")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=578804628]
+scale = Vector2(0.5, 0.5)
