@@ -1,0 +1,13 @@
+{
+  "1": {
+    "id": 1,
+    "EnemyName": "红色Godot",
+    "EnemyType": 3,
+    "EnemyAttr": 6,
+    "EnemyImg": "Art\\Enemies\\boss_1.png",
+    "EnemySkill": 0,
+    "EnemyHp": 5000,
+    "EnemyAtk": 75,
+    "EnemyDef": 50
+  }
+}

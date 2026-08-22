@@ -1,0 +1,62 @@
+{
+  "1": {
+    "id": 1,
+    "HeroName": "黄色Godot",
+    "HeroAttr": 1,
+    "HeroImg": "Art\\Heros\\player_yellow.png",
+    "HeroSkill": 0,
+    "HeroHp": 1000,
+    "HeroChargeValue": 100,
+    "HeroChargeRate": 20,
+    "HeroAtk": 75,
+    "HeroDef": 50
+  },
+  "2": {
+    "id": 2,
+    "HeroName": "粉色Godot",
+    "HeroAttr": 2,
+    "HeroImg": "Art\\Heros\\player_pink.png",
+    "HeroSkill": 0,
+    "HeroHp": 1000,
+    "HeroChargeValue": 100,
+    "HeroChargeRate": 20,
+    "HeroAtk": 75,
+    "HeroDef": 50
+  },
+  "3": {
+    "id": 3,
+    "HeroName": "橙色Godot",
+    "HeroAttr": 3,
+    "HeroImg": "Art\\Heros\\player_orange.png",
+    "HeroSkill": 0,
+    "HeroHp": 1000,
+    "HeroChargeValue": 100,
+    "HeroChargeRate": 20,
+    "HeroAtk": 75,
+    "HeroDef": 50
+  },
+  "4": {
+    "id": 4,
+    "HeroName": "绿色Godot",
+    "HeroAttr": 4,
+    "HeroImg": "Art\\Heros\\player_green.png",
+    "HeroSkill": 0,
+    "HeroHp": 1000,
+    "HeroChargeValue": 100,
+    "HeroChargeRate": 20,
+    "HeroAtk": 75,
+    "HeroDef": 50
+  },
+  "5": {
+    "id": 5,
+    "HeroName": "蓝色Godot",
+    "HeroAttr": 5,
+    "HeroImg": "Art\\Heros\\player_blue.png",
+    "HeroSkill": 0,
+    "HeroHp": 1000,
+    "HeroChargeValue": 100,
+    "HeroChargeRate": 20,
+    "HeroAtk": 75,
+    "HeroDef": 50
+  }
+}

@@ -44,5 +44,8 @@ pointing/emulate_touch_from_mouse=true
 
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"
-2d/snap/snap_2d_transforms_to_pixel=true
-2d/snap/snap_2d_vertices_to_pixel=true
+; 关闭像素对齐：开着会让旋转的节点出现锯齿（四角被咬合到整像素）
+;2d/snap/snap_2d_transforms_to_pixel=true
+;2d/snap/snap_2d_vertices_to_pixel=true
+; 2D 4x MSAA：消除旋转边缘的斜边锯齿
+rendering/anti_aliasing/quality/msaa_2d=2
